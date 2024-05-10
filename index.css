@@ -1,0 +1,65 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+   
+}
+.container{
+    background-color:  hsl(216, 50%, 16%);
+    width: 375px;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 3rem auto 2rem;
+
+}
+h3{
+    color: hsl(0, 0%, 100%);
+}
+.equillibrium{
+  width: 100%;
+  border-radius: 15px;
+  
+}
+.first{
+    color: hsl(215, 51%, 70%);
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+ .middle .diamond{
+    color:hsl(178, 100%, 50%);
+}
+ .middle p{
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.footar{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    color:hsl(0, 0%, 100%) ;
+    margin-right: 2.5rem;
+}
+.footar img{
+    width: 20%;
+    /* margin-left:1rem; */
+
+}
+.footar p{
+    margin-left: 10px;
+}
+.footar span{
+    color: hsl(215, 51%, 70%);
+}
+
